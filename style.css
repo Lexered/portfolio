@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #232323;
+  background: #1c1c1f;
+  font-family: "Figtree", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,10 +13,11 @@ body {
   flex-direction: column;
   gap: 20px;
   overflow: hidden;
+  user-select: none;
 }
 .clock {
-  color: grey;
-  font-size: 23px;
+  color: #ffffff55;
+  font-size: 24px;
   display: flex;
   align-items: flex-end;
   gap: 15px;
@@ -36,11 +38,13 @@ body {
 .active-nb {
   font-size: 30px;
   color: white;
+  font-weight: 700;
 }
 
 .time {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 a.link{
